@@ -1,0 +1,10 @@
+{
+  "values": {
+    "random_mod:ebony_leaves": {
+      "chance": 0.3
+    },
+    "random_mod:greenwood_leaves": {
+      "chance": 0.3
+    }
+  }
+}

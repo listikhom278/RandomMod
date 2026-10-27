@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "random_mod:germanium_ingot_block",
+    "random_mod:nether_germanium_ore",
+    "random_mod:raw_germanium_block"
+  ]
+}

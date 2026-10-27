@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#random_mod:greenwood_logs",
+      "required": false
+    },
+    {
+      "id": "#random_mod:ebony_logs",
+      "required": false
+    },
+    {
+      "id": "#random_mod:blackwood_logs",
+      "required": false
+    }
+  ]
+}
