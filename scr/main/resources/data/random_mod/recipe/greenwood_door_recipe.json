@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "category": "redstone",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "random_mod:greenwood_planks"
+    }
+  },
+  "result": {
+    "id": "random_mod:greenwood_door",
+    "count": 3
+  }
+}

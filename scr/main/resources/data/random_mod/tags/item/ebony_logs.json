@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "random_mod:stripped_ebony_wood",
+    "random_mod:ebony_log",
+    "random_mod:stripped_ebony_log",
+    "random_mod:ebony_wood"
+  ]
+}

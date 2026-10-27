@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "random_mod:baldi_biome",
+  "spawners": {
+    "type": "random_mod:baldi",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

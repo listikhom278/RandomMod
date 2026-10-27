@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "random_mod:raw_germanium"
+    }
+  },
+  "result": {
+    "id": "random_mod:raw_germanium_block",
+    "count": 1
+  }
+}

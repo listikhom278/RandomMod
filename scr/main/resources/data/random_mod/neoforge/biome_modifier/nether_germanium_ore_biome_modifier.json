@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "nether_wastes",
+    "badlands",
+    "crimson_forest",
+    "warped_forest",
+    "soul_sand_valley"
+  ],
+  "features": "random_mod:nether_germanium_ore",
+  "step": "underground_ores"
+}

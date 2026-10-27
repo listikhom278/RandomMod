@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "random_mod:greenwood_logs"
+    }
+  ],
+  "result": {
+    "id": "random_mod:greenwood_planks",
+    "count": 4
+  }
+}

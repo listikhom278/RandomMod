@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "random_mod:green_wood_sapling"
+    },
+    {
+      "item": "random_mod:random_table"
+    },
+    {
+      "item": "random_mod:ebony_sapling"
+    }
+  ],
+  "result": {
+    "id": "random_mod:music_disc",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "random_mod:baldis_ruler"
+    },
+    {
+      "item": "random_mod:baldi_block"
+    }
+  ],
+  "result": {
+    "id": "random_mod:baldi_dimension",
+    "count": 1
+  }
+}
