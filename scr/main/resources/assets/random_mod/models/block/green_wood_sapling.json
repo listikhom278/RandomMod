@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "random_mod:block/greenwoodsapling",
+    "particle": "random_mod:block/greenwoodsapling"
+  },
+  "render_type": "cutout"
+}

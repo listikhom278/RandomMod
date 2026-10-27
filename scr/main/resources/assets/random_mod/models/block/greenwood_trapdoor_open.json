@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "random_mod:block/greenwood_trapdoor",
+    "particle": "random_mod:block/greenwood_trapdoor"
+  },
+  "render_type": "cutout"
+}

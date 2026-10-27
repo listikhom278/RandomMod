@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "random_mod:block/greenwood_planks",
+    "bottom": "random_mod:block/greenwood_planks",
+    "top": "random_mod:block/greenwood_planks",
+    "side": "random_mod:block/greenwood_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "random_mod:block/ebony_leaves",
+    "particle": "random_mod:block/ebony_leaves"
+  }
+}

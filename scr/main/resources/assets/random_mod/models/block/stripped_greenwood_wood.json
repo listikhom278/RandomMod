@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "random_mod:block/stripped_greenwood_log",
+    "particle": "random_mod:block/stripped_greenwood_log"
+  },
+  "render_type": "solid"
+}

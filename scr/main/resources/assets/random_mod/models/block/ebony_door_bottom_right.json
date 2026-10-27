@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right",
+  "textures": {
+    "particle": "random_mod:block/ebony_door_bottom",
+    "bottom": "random_mod:block/ebony_door_bottom",
+    "top": "random_mod:block/ebony_door_top"
+  },
+  "render_type": "cutout"
+}

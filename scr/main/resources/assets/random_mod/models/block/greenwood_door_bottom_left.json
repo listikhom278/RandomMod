@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left",
+  "textures": {
+    "particle": "random_mod:block/greenwood_door_bottom",
+    "bottom": "random_mod:block/greenwood_door_bottom",
+    "top": "random_mod:block/greenwood_door_top"
+  },
+  "render_type": "cutout"
+}
