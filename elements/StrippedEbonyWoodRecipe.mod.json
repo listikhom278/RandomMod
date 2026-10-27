@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      "CUSTOM:StrippedEbonyLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:StrippedEbonyLog",
+      "CUSTOM:StrippedEbonyLog",
+      "",
+      "CUSTOM:StrippedEbonyLog",
+      "CUSTOM:StrippedEbonyLog",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:StrippedEbonyWood",
+    "name": "stripped_ebony_wood_recipe",
+    "namespace": "mod"
+  }
+}

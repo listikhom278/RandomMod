@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Random Profession",
+    "pointOfInterest": "CUSTOM:RandomTable",
+    "actionSound": "item.armor.equip_chain",
+    "hat": "None",
+    "professionTextureFile": "toolsmith.png",
+    "zombifiedProfessionTextureFile": "toolsmith.png"
+  }
+}
