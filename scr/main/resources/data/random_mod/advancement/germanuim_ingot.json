@@ -1,0 +1,37 @@
+{
+  "display": {
+    "background": "random_mod:textures/screens/raw_iron_block.png",
+    "icon": {
+      "id": "random_mod:germanium_ingot"
+    },
+    "title": {
+      "translate": "advancements.germanuim_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.germanuim_ingot.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "germanuim_ingot_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "random_mod:germanium_ingot",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

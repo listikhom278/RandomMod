@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "id": "random_mod:emerald_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.emerald_armor_advencement.title"
+    },
+    "description": {
+      "translate": "advancements.emerald_armor_advencement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "emerald_armor_advencement_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "random_mod:emerald_armor_chestplate",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "emerald_armor_advencement_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "random_mod:emerald_armor_helmet",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "emerald_armor_advencement_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "random_mod:emerald_armor_boots",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "emerald_armor_advencement_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "random_mod:emerald_armor_leggings",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "random_mod:germanuim_ingot"
+}
