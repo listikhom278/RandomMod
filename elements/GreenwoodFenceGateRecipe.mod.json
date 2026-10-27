@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "wooden_fence_gate",
+    "unlockingItems": [
+      "CUSTOM:GreenwoodPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "Items.STICK",
+      "CUSTOM:GreenwoodPlanks",
+      "Items.STICK",
+      "Items.STICK",
+      "CUSTOM:GreenwoodPlanks",
+      "Items.STICK"
+    ],
+    "recipeReturnStack": "CUSTOM:GreenwoodFenceGate",
+    "name": "greenwood_fence_gate_recipe",
+    "namespace": "mod"
+  }
+}

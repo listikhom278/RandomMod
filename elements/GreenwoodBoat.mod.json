@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Greenwood Boat",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "entityTexture": "greenwood_boat",
+    "itemTexture": "greenwood_boat"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:GermaniumIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:GermaniumIngot",
+      "CUSTOM:GermaniumIngot",
+      "CUSTOM:GermaniumIngot",
+      "CUSTOM:GermaniumIngot",
+      "Blocks.CRAFTING_TABLE",
+      "CUSTOM:GermaniumIngot",
+      "Items.REDSTONE",
+      "Blocks.DROPPER",
+      "Items.REDSTONE"
+    ],
+    "recipeReturnStack": "Blocks.CRAFTER",
+    "name": "crafter_recipe",
+    "namespace": "mod"
+  }
+}

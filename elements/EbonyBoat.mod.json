@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Ebony Boat",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "entityTexture": "ebony_boat",
+    "itemTexture": "ebony_boat"
+  }
+}

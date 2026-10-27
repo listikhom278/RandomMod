@@ -1,0 +1,39 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "diamond_sword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Emerald Sword",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "CUSTOM:RandomModTab",
+      "COMBAT"
+    ],
+    "efficiency": 5.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 6.0,
+    "usageCount": 1100,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "Items.EMERALD"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
