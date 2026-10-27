@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "random_mod:block/greenwood_slab"
+    },
+    "type=top": {
+      "model": "random_mod:block/greenwood_slab_top"
+    },
+    "type=double": {
+      "model": "random_mod:block/greenwood_slab_full"
+    }
+  }
+}

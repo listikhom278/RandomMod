@@ -1,0 +1,11 @@
+{
+  "music_disc.creo-flow": {
+    "subtitle": "subtitles.music_disc.creo-flow",
+    "sounds": [
+      {
+        "name": "random_mod:1132447_creo-flow",
+        "stream": true
+      }
+    ]
+  }
+}
