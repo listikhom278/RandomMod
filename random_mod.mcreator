@@ -1,0 +1,2211 @@
+{
+  "mod_elements": [
+    {
+      "name": "RandomModTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_mod_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Baldi",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baldi",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/entity/BaldiEntity.java",
+          "src/main/java/com/sixoeight/randommod/client/renderer/BaldiRenderer.java",
+          "src/main/resources/assets/random_mod/models/item/baldi_spawn_egg.json",
+          "src/main/resources/data/random_mod/neoforge/biome_modifier/baldi_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "BaldiBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baldi_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/worldgen/placed_feature/baldi_block.json",
+          "src/main/resources/data/random_mod/worldgen/configured_feature/baldi_block.json",
+          "src/main/resources/data/random_mod/neoforge/biome_modifier/baldi_block_biome_modifier.json",
+          "src/main/java/com/sixoeight/randommod/block/BaldiBlockBlock.java",
+          "src/main/resources/assets/random_mod/blockstates/baldi_block.json",
+          "src/main/resources/assets/random_mod/models/block/baldi_block.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/baldi_block.json",
+          "src/main/resources/assets/random_mod/models/item/baldi_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BaldiBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baldi_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/mixin/BiomeSourcePresetMixin.java",
+          "src/main/resources/data/random_mod/worldgen/biome/baldi_biome.json"
+        ]
+      }
+    },
+    {
+      "name": "BaldiDimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baldi_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/dimension/baldi_dimension.json",
+          "src/main/java/com/sixoeight/randommod/block/BaldiDimensionPortalBlock.java",
+          "src/main/java/com/sixoeight/randommod/world/dimension/BaldiDimensionDimension.java",
+          "src/main/java/com/sixoeight/randommod/world/teleporter/BaldiDimensionPortalShape.java",
+          "src/main/resources/assets/random_mod/models/block/baldi_dimension_portal_ns.json",
+          "src/main/resources/assets/random_mod/blockstates/baldi_dimension_portal.json",
+          "src/main/java/com/sixoeight/randommod/item/BaldiDimensionItem.java",
+          "src/main/java/com/sixoeight/randommod/world/teleporter/BaldiDimensionTeleporter.java",
+          "src/main/resources/assets/random_mod/models/item/baldi_dimension.json",
+          "src/main/resources/data/random_mod/dimension_type/baldi_dimension.json",
+          "src/main/resources/assets/random_mod/models/block/baldi_dimension_portal_ew.json"
+        ]
+      }
+    },
+    {
+      "name": "BaldisRuler",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baldis_ruler",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/baldis_ruler.json",
+          "src/main/java/com/sixoeight/randommod/item/BaldisRulerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BaldisRulerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baldis_ruler_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/baldis_ruler_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BDPIR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bdpir",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/bdpir.json"
+        ]
+      }
+    },
+    {
+      "name": "BaldiCat",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baldi_cat",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/entity/BaldiCatEntity.java",
+          "src/main/resources/data/random_mod/neoforge/biome_modifier/baldi_cat_biome_modifier.json",
+          "src/main/resources/assets/random_mod/models/item/baldi_cat_spawn_egg.json",
+          "src/main/java/com/sixoeight/randommod/client/renderer/BaldiCatRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "RegisterComposter",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "register_composter",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/RegisterComposter.java"
+        ]
+      }
+    },
+    {
+      "name": "GLOWBERRIES",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glowberries",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/GLOWBERRIES.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/item/EmeraldPickaxeItem.java",
+          "src/main/resources/assets/random_mod/models/item/emerald_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/emerald_pickaxe_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/emerald_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/emerald_shovel.json",
+          "src/main/java/com/sixoeight/randommod/item/EmeraldShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/item/EmeraldAxeItem.java",
+          "src/main/resources/assets/random_mod/models/item/emerald_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/emerald_shovel_recipe.json",
+          "src/main/resources/data/random_mod/recipe/emerald_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/emerald_axe_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/emerald_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/emerald_sword.json",
+          "src/main/java/com/sixoeight/randommod/item/EmeraldSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/item/EmeraldHoeItem.java",
+          "src/main/resources/assets/random_mod/models/item/emerald_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/emerald_armor_helmet.json",
+          "src/main/java/com/sixoeight/randommod/item/EmeraldArmorItem.java",
+          "src/main/resources/assets/random_mod/models/item/emerald_armor_leggings.json",
+          "src/main/resources/assets/random_mod/models/item/emerald_armor_boots.json",
+          "src/main/resources/assets/random_mod/models/item/emerald_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/emerald_sword_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/emerald_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/emerald_hoe_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/emerald_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/emerald_helmet_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/emerald_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/emerald_chestplate_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/emerald_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldLegginsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_leggins_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/emerald_leggins_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/emerald_leggins_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/emerald_boots_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/emerald_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherGermaniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_germanium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/neoforge/biome_modifier/nether_germanium_ore_biome_modifier.json",
+          "src/main/resources/assets/random_mod/blockstates/nether_germanium_ore.json",
+          "src/main/resources/assets/random_mod/models/block/nether_germanium_ore.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/nether_germanium_ore.json",
+          "src/main/resources/assets/random_mod/models/item/nether_germanium_ore.json",
+          "src/main/resources/data/random_mod/worldgen/configured_feature/nether_germanium_ore.json",
+          "src/main/resources/data/random_mod/worldgen/placed_feature/nether_germanium_ore.json",
+          "src/main/java/com/sixoeight/randommod/block/NetherGermaniumOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RawGermanium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_germanium",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/item/RawGermaniumItem.java",
+          "src/main/resources/assets/random_mod/models/item/raw_germanium.json"
+        ]
+      }
+    },
+    {
+      "name": "GermaniumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "germanium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/germanium_ingot.json",
+          "src/main/java/com/sixoeight/randommod/item/GermaniumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PistonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "piston_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/piston_recipe.json",
+          "src/main/resources/data/random_mod/recipe/piston_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrafterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crafter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/crafter_recipe.json",
+          "src/main/resources/data/random_mod/recipe/crafter_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HopperRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hopper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/hopper_recipe.json",
+          "src/main/resources/data/random_mod/recipe/hopper_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GermaniumIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "germanium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/germanium_ingot_recipe.json",
+          "src/main/resources/data/random_mod/recipe/germanium_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GermaniumIngotRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "germanium_ingot_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/germanium_ingot_recipe_2.json",
+          "src/main/resources/data/random_mod/advancement/recipes/germanium_ingot_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "RawGermaniumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_germanium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/block/raw_germanium_block.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/raw_germanium_block.json",
+          "src/main/java/com/sixoeight/randommod/block/RawGermaniumBlockBlock.java",
+          "src/main/resources/assets/random_mod/models/item/raw_germanium_block.json",
+          "src/main/resources/assets/random_mod/blockstates/raw_germanium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GermaniumIngotBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "germanium_ingot_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/germanium_ingot_block.json",
+          "src/main/java/com/sixoeight/randommod/block/GermaniumIngotBlockBlock.java",
+          "src/main/resources/assets/random_mod/models/block/germanium_ingot_block.json",
+          "src/main/resources/assets/random_mod/blockstates/germanium_ingot_block.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/germanium_ingot_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GermanuimIngot",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "germanuim_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/germanuim_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldArmorAdvencement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armor_advencement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/emerald_armor_advencement.json"
+        ]
+      }
+    },
+    {
+      "name": "RawGermaniumBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_germanium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/raw_germanium_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GermaniumIngotBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "germanium_ingot_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/germanium_ingot_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GermaniumIngotRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "germanium_ingot_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/germanium_ingot_recipe_3.json"
+        ]
+      }
+    },
+    {
+      "name": "RawGermaniumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_germanium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/raw_germanium_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/ebony_log.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonyLogBlock.java",
+          "src/main/resources/assets/random_mod/blockstates/ebony_log.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_log.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_log.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/blockstates/ebony_wood.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_wood.json",
+          "src/main/resources/assets/random_mod/models/item/ebony_wood.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_wood.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonyWoodBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedEbonyLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_ebony_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/stripped_ebony_log.json",
+          "src/main/java/com/sixoeight/randommod/block/StrippedEbonyLogBlock.java",
+          "src/main/resources/data/random_mod/loot_table/blocks/stripped_ebony_log.json",
+          "src/main/resources/assets/random_mod/blockstates/stripped_ebony_log.json",
+          "src/main/resources/assets/random_mod/models/block/stripped_ebony_log.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedEbonyWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_ebony_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/block/StrippedEbonyWoodBlock.java",
+          "src/main/resources/assets/random_mod/blockstates/stripped_ebony_wood.json",
+          "src/main/resources/assets/random_mod/models/item/stripped_ebony_wood.json",
+          "src/main/resources/assets/random_mod/models/block/stripped_ebony_wood.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/stripped_ebony_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/block/EbonyPlanksBlock.java",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_planks.json",
+          "src/main/resources/assets/random_mod/models/item/ebony_planks.json",
+          "src/main/resources/assets/random_mod/blockstates/ebony_planks.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/ebony_leaves.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_leaves.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_leaves.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonyLeavesBlock.java",
+          "src/main/resources/assets/random_mod/blockstates/ebony_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/blockstates/ebony_stairs.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonyStairsBlock.java",
+          "src/main/resources/assets/random_mod/models/block/ebony_stairs_inner.json",
+          "src/main/resources/assets/random_mod/models/item/ebony_stairs.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_stairs_outer.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_stairs.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonySlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/block/ebony_slab.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_slab_full.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_slab_top.json",
+          "src/main/resources/assets/random_mod/models/item/ebony_slab.json",
+          "src/main/resources/assets/random_mod/blockstates/ebony_slab.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonySlabBlock.java",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/block/EbonyFenceBlock.java",
+          "src/main/resources/assets/random_mod/blockstates/ebony_fence.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_fence.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_fence_post.json",
+          "src/main/resources/assets/random_mod/models/item/ebony_fence.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_fence.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_fence_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/block/ebony_fence_gate_wall_open.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonyFenceGateBlock.java",
+          "src/main/resources/assets/random_mod/models/item/ebony_fence_gate.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_fence_gate_wall.json",
+          "src/main/resources/assets/random_mod/blockstates/ebony_fence_gate.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_fence_gate.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_fence_gate.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_fence_gate_open.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/blockstates/ebony_door.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_door_bottom_left.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_door_top_right.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_door.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_door_top_right_open.json",
+          "src/main/resources/assets/random_mod/models/item/ebony_door.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_door_bottom_left_open.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_door_bottom_right_open.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonyDoorBlock.java",
+          "src/main/resources/assets/random_mod/models/block/ebony_door_top_left.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_door_top_left_open.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_door_bottom_right.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/block/EbonyTrapdoorBlock.java",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_trapdoor.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_trapdoor.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_trapdoor_top.json",
+          "src/main/resources/assets/random_mod/models/item/ebony_trapdoor.json",
+          "src/main/resources/assets/random_mod/blockstates/ebony_trapdoor.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_trapdoor_open.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/blockstates/ebony_pressure_plate.json",
+          "src/main/resources/assets/random_mod/models/item/ebony_pressure_plate.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_pressure_plate.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonyPressurePlateBlock.java",
+          "src/main/resources/assets/random_mod/models/block/ebony_pressure_plate_down.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/block/ebony_button.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_button.json",
+          "src/main/resources/assets/random_mod/blockstates/ebony_button.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonyButtonBlock.java",
+          "src/main/resources/assets/random_mod/models/block/ebony_button_inventory.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_button_pressed.json",
+          "src/main/resources/assets/random_mod/models/item/ebony_button.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonySign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/block/ebony_sign.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_sign.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonySignBlock.java",
+          "src/main/java/com/sixoeight/randommod/block/EbonyWallSignBlock.java",
+          "src/main/resources/assets/random_mod/models/item/ebony_sign.json",
+          "src/main/resources/assets/random_mod/blockstates/ebony_sign.json",
+          "src/main/resources/assets/random_mod/blockstates/ebony_wall_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyHangingSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_hanging_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/blockstates/ebony_wall_hanging_sign.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_hanging_sign.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonyWallHangingSignBlock.java",
+          "src/main/resources/assets/random_mod/blockstates/ebony_hanging_sign.json",
+          "src/main/java/com/sixoeight/randommod/block/EbonyHangingSignBlock.java",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_hanging_sign.json",
+          "src/main/resources/assets/random_mod/models/item/ebony_hanging_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/ebony_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyChestBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_chest_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/ebony_chest_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyLeavesComposting",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_leaves_composting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "EbonyWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ebony_wood_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedEbonyWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_ebony_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/stripped_ebony_wood_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/stripped_ebony_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_planks_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ebony_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ebony_stairs_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonySlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_slab_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ebony_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ebony_fence_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ebony_fence_gate_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_door_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ebony_door_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ebony_trapdoor_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_trapdoor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_pressure_plate_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ebony_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_button_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ebony_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonySignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_sign_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ebony_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyHangingSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_hanging_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_hanging_sign_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ebony_hanging_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ebony_boat_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyChestBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_chest_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ebony_chest_boat_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ebony_chest_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/mixin/BiomeSourcePresetMixin.java",
+          "src/main/resources/data/random_mod/worldgen/biome/ebony_biome.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonyTreeFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_tree_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/worldgen/configured_feature/ebony_tree_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_log",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodLogBlock.java",
+          "src/main/resources/assets/random_mod/models/item/greenwood_log.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_log.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_log.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/greenwood_wood.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodWoodBlock.java",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_wood.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_wood.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedGreenwoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_greenwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/block/stripped_greenwood_log.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/stripped_greenwood_log.json",
+          "src/main/resources/assets/random_mod/models/item/stripped_greenwood_log.json",
+          "src/main/resources/assets/random_mod/blockstates/stripped_greenwood_log.json",
+          "src/main/java/com/sixoeight/randommod/block/StrippedGreenwoodLogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedGreenwoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_greenwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/loot_table/blocks/stripped_greenwood_wood.json",
+          "src/main/resources/assets/random_mod/blockstates/stripped_greenwood_wood.json",
+          "src/main/resources/assets/random_mod/models/item/stripped_greenwood_wood.json",
+          "src/main/java/com/sixoeight/randommod/block/StrippedGreenwoodWoodBlock.java",
+          "src/main/resources/assets/random_mod/models/block/stripped_greenwood_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/greenwood_planks.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_planks.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_planks.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_planks.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodPlanksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodLeavesBlock.java",
+          "src/main/resources/assets/random_mod/models/item/greenwood_leaves.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_leaves.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_leaves.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/block/greenwood_stairs_outer.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_stairs.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_stairs.json",
+          "src/main/resources/assets/random_mod/models/item/greenwood_stairs.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_stairs.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodStairsBlock.java",
+          "src/main/resources/assets/random_mod/models/block/greenwood_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodSlabBlock.java",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_slab.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_slab_full.json",
+          "src/main/resources/assets/random_mod/models/item/greenwood_slab.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_slab.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_slab.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/block/greenwood_fence_inventory.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodFenceBlock.java",
+          "src/main/resources/assets/random_mod/models/block/greenwood_fence.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_fence_post.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_fence.json",
+          "src/main/resources/assets/random_mod/models/item/greenwood_fence.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/block/greenwood_fence_gate_wall_open.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_fence_gate.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodFenceGateBlock.java",
+          "src/main/resources/assets/random_mod/models/block/greenwood_fence_gate.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_fence_gate_open.json",
+          "src/main/resources/assets/random_mod/models/item/greenwood_fence_gate.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_fence_gate.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_fence_gate_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/greenwood_door.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_door.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_door_top_left_open.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_door_bottom_left_open.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_door_bottom_right_open.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_door_bottom_right.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_door_top_left.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodDoorBlock.java",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_door.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_door_top_right.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_door_top_right_open.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_door_bottom_left.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodTrapdoorBlock.java",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_trapdoor.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_trapdoor.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_trapdoor_open.json",
+          "src/main/resources/assets/random_mod/models/item/greenwood_trapdoor.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_trapdoor.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_trapdoor_top.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodPressurePlateBlock.java",
+          "src/main/resources/assets/random_mod/models/item/greenwood_pressure_plate.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_pressure_plate.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_pressure_plate.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_pressure_plate_down.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/greenwood_button.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_button.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_button_inventory.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodButtonBlock.java",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_button.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_button.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_button_pressed.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/blockstates/greenwood_wall_sign.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_sign.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_sign.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodWallSignBlock.java",
+          "src/main/resources/assets/random_mod/models/block/greenwood_sign.json",
+          "src/main/resources/assets/random_mod/models/item/greenwood_sign.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodSignBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodHangingSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_hanging_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/greenwood_hanging_sign.json",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_wall_hanging_sign.json",
+          "src/main/resources/assets/random_mod/models/block/greenwood_hanging_sign.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodHangingSignBlock.java",
+          "src/main/resources/assets/random_mod/blockstates/greenwood_hanging_sign.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/greenwood_hanging_sign.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenwoodWallHangingSignBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/greenwood_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodChestBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_chest_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/greenwood_chest_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodLeavesComposting",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_leaves_composting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GreenwoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_wood_recipe.json",
+          "src/main/resources/data/random_mod/recipe/greenwood_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedGreenwoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_greenwood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/stripped_greenwood_wood_recipe.json",
+          "src/main/resources/data/random_mod/recipe/stripped_greenwood_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/greenwood_planks_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/greenwood_stairs_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_slab_recipe.json",
+          "src/main/resources/data/random_mod/recipe/greenwood_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_fence_recipe.json",
+          "src/main/resources/data/random_mod/recipe/greenwood_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_fence_gate_recipe.json",
+          "src/main/resources/data/random_mod/recipe/greenwood_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/greenwood_door_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_door_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/greenwood_trapdoor_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_trapdoor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_pressure_plate_recipe.json",
+          "src/main/resources/data/random_mod/recipe/greenwood_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/greenwood_button_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_sign_recipe.json",
+          "src/main/resources/data/random_mod/recipe/greenwood_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodHangingSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_hanging_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/greenwood_hanging_sign_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_hanging_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/greenwood_boat_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenwoodChestBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenwood_chest_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/greenwood_chest_boat_recipe.json",
+          "src/main/resources/data/random_mod/recipe/greenwood_chest_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenWoodTreeFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_wood_tree_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/worldgen/configured_feature/green_wood_tree_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenWoodSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_wood_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/block/green_wood_sapling.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/green_wood_sapling.json",
+          "src/main/resources/assets/random_mod/models/item/green_wood_sapling.json",
+          "src/main/java/com/sixoeight/randommod/block/GreenWoodSaplingBlock.java",
+          "src/main/resources/assets/random_mod/blockstates/green_wood_sapling.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonySapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebony_sapling",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/block/EbonySaplingBlock.java",
+          "src/main/resources/assets/random_mod/blockstates/ebony_sapling.json",
+          "src/main/resources/assets/random_mod/models/item/ebony_sapling.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/ebony_sapling.json",
+          "src/main/resources/assets/random_mod/models/block/ebony_sapling.json"
+        ]
+      }
+    },
+    {
+      "name": "SaplingTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapling_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RandomTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_table",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/block/RandomTableBlock.java",
+          "src/main/resources/assets/random_mod/models/block/random_table.json",
+          "src/main/resources/assets/random_mod/models/item/random_table.json",
+          "src/main/resources/data/random_mod/loot_table/blocks/random_table.json",
+          "src/main/resources/assets/random_mod/blockstates/random_table.json"
+        ]
+      }
+    },
+    {
+      "name": "RandomProfession",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_profession",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RandomProfessionTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_profession_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MusicDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/item/MusicDiscItem.java",
+          "src/main/resources/data/random_mod/jukebox_song/music_disc.json",
+          "src/main/resources/assets/random_mod/models/item/music_disc.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDisc1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/music_disc_1.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDisc1advancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_1advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/music_disc_1advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "HolyGDReferense",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_gd_referense",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/painting_variant/holy_gd_referense.json"
+        ]
+      }
+    },
+    {
+      "name": "RandomTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/random_table_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "music_disc.creo-flow",
+      "files": [
+        "1132447_creo-flow"
+      ],
+      "category": "record",
+      "subtitle": "Creo - Flow"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:c:ingots": [
+      "CUSTOM:GermaniumIngot"
+    ],
+    "ITEMS:c:ingots/germanium": [
+      "CUSTOM:GermaniumIngot"
+    ],
+    "ITEMS:c:raw_materials/germanium": [
+      "CUSTOM:RawGermanium"
+    ],
+    "BLOCKS:mod:ebony_logs": [
+      "CUSTOM:EbonyLog",
+      "CUSTOM:EbonyWood",
+      "CUSTOM:StrippedEbonyLog",
+      "CUSTOM:StrippedEbonyWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:ebony_logs",
+      "TAG:mod:blackwood_logs",
+      "TAG:mod:greenwood_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:EbonyPlanks",
+      "CUSTOM:GreenwoodPlanks"
+    ],
+    "ITEMS:mod:ebony_logs": [
+      "CUSTOM:EbonyLog",
+      "CUSTOM:EbonyWood",
+      "CUSTOM:StrippedEbonyLog",
+      "CUSTOM:StrippedEbonyWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:ebony_logs",
+      "TAG:mod:blackwood_logs",
+      "TAG:mod:greenwood_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:EbonyPlanks",
+      "CUSTOM:GreenwoodPlanks"
+    ],
+    "BLOCKS:mod:blackwood_logs": [],
+    "ITEMS:mod:blackwood_logs": [],
+    "BLOCKS:mod:greenwood_logs": [
+      "CUSTOM:GreenwoodLog",
+      "CUSTOM:GreenwoodWood",
+      "CUSTOM:StrippedGreenwoodLog",
+      "CUSTOM:StrippedGreenwoodWood"
+    ],
+    "ITEMS:mod:greenwood_logs": [
+      "CUSTOM:GreenwoodLog",
+      "CUSTOM:GreenwoodWood",
+      "CUSTOM:StrippedGreenwoodLog",
+      "CUSTOM:StrippedGreenwoodWood"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~GermaniumIngotBlock@CUSTOM:GermaniumIngotBlock",
+      "~RawGermaniumBlock@CUSTOM:RawGermaniumBlock",
+      "~NetherGermaniumOre@CUSTOM:NetherGermaniumOre",
+      "~BaldiBlock@CUSTOM:BaldiBlock"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~BaldiBiome@CUSTOM:BaldiBiome"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~BaldiDimension@CUSTOM:BaldiBlock"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~EmeraldSword@CUSTOM:EmeraldSword",
+      "~BaldisRuler@CUSTOM:BaldisRuler"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~EmeraldPickaxe@CUSTOM:EmeraldPickaxe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~EmeraldShovel@CUSTOM:EmeraldShovel"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~EmeraldAxe@CUSTOM:EmeraldAxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~EmeraldHoe@CUSTOM:EmeraldHoe"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~EmeraldArmor@CUSTOM:EmeraldArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~EmeraldArmor@CUSTOM:EmeraldArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~EmeraldArmor@CUSTOM:EmeraldArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~EmeraldArmor@CUSTOM:EmeraldArmor.boots"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~GermaniumIngotBlock@CUSTOM:GermaniumIngotBlock",
+      "~RawGermaniumBlock@CUSTOM:RawGermaniumBlock",
+      "~NetherGermaniumOre@CUSTOM:NetherGermaniumOre"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~RandomTable@CUSTOM:RandomTable",
+      "~GreenwoodHangingSign@CUSTOM:GreenwoodHangingSign.wall",
+      "~GreenwoodHangingSign@CUSTOM:GreenwoodHangingSign",
+      "~GreenwoodSign@CUSTOM:GreenwoodSign.wall",
+      "~GreenwoodSign@CUSTOM:GreenwoodSign",
+      "~GreenwoodButton@CUSTOM:GreenwoodButton",
+      "~GreenwoodPressurePlate@CUSTOM:GreenwoodPressurePlate",
+      "~GreenwoodTrapdoor@CUSTOM:GreenwoodTrapdoor",
+      "~GreenwoodDoor@CUSTOM:GreenwoodDoor",
+      "~GreenwoodFenceGate@CUSTOM:GreenwoodFenceGate",
+      "~GreenwoodFence@CUSTOM:GreenwoodFence",
+      "~GreenwoodSlab@CUSTOM:GreenwoodSlab",
+      "~GreenwoodStairs@CUSTOM:GreenwoodStairs",
+      "~GreenwoodPlanks@CUSTOM:GreenwoodPlanks",
+      "~StrippedGreenwoodWood@CUSTOM:StrippedGreenwoodWood",
+      "~StrippedGreenwoodLog@CUSTOM:StrippedGreenwoodLog",
+      "~GreenwoodWood@CUSTOM:GreenwoodWood",
+      "~GreenwoodLog@CUSTOM:GreenwoodLog",
+      "~EbonyHangingSign@CUSTOM:EbonyHangingSign",
+      "~EbonyHangingSign@CUSTOM:EbonyHangingSign.wall",
+      "~EbonySign@CUSTOM:EbonySign",
+      "~EbonySign@CUSTOM:EbonySign.wall",
+      "~EbonyButton@CUSTOM:EbonyButton",
+      "~EbonyPressurePlate@CUSTOM:EbonyPressurePlate",
+      "~EbonyTrapdoor@CUSTOM:EbonyTrapdoor",
+      "~EbonyDoor@CUSTOM:EbonyDoor",
+      "~EbonyFenceGate@CUSTOM:EbonyFenceGate",
+      "~EbonyFence@CUSTOM:EbonyFence",
+      "~EbonySlab@CUSTOM:EbonySlab",
+      "~EbonyStairs@CUSTOM:EbonyStairs",
+      "~EbonyPlanks@CUSTOM:EbonyPlanks",
+      "~StrippedEbonyWood@CUSTOM:StrippedEbonyWood",
+      "~StrippedEbonyLog@CUSTOM:StrippedEbonyLog",
+      "~EbonyWood@CUSTOM:EbonyWood",
+      "~EbonyLog@CUSTOM:EbonyLog"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~GreenwoodLeaves@CUSTOM:GreenwoodLeaves",
+      "~EbonyLeaves@CUSTOM:EbonyLeaves"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~GreenwoodLeaves@CUSTOM:GreenwoodLeaves",
+      "~EbonyLeaves@CUSTOM:EbonyLeaves"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~GreenwoodStairs@CUSTOM:GreenwoodStairs",
+      "~EbonyStairs@CUSTOM:EbonyStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~GreenwoodSlab@CUSTOM:GreenwoodSlab",
+      "~EbonySlab@CUSTOM:EbonySlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~GreenwoodFence@CUSTOM:GreenwoodFence",
+      "~EbonyFence@CUSTOM:EbonyFence"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~GreenwoodDoor@CUSTOM:GreenwoodDoor",
+      "~EbonyDoor@CUSTOM:EbonyDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~GreenwoodTrapdoor@CUSTOM:GreenwoodTrapdoor",
+      "~EbonyTrapdoor@CUSTOM:EbonyTrapdoor"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~GreenwoodPressurePlate@CUSTOM:GreenwoodPressurePlate",
+      "~EbonyPressurePlate@CUSTOM:EbonyPressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~GreenwoodButton@CUSTOM:GreenwoodButton",
+      "~EbonyButton@CUSTOM:EbonyButton"
+    ],
+    "BLOCKS:minecraft:standing_signs": [
+      "~GreenwoodSign@CUSTOM:GreenwoodSign",
+      "~EbonySign@CUSTOM:EbonySign"
+    ],
+    "BLOCKS:minecraft:wall_signs": [
+      "~GreenwoodSign@CUSTOM:GreenwoodSign.wall",
+      "~EbonySign@CUSTOM:EbonySign.wall"
+    ],
+    "BLOCKS:minecraft:ceiling_hanging_signs": [
+      "~GreenwoodHangingSign@CUSTOM:GreenwoodHangingSign",
+      "~EbonyHangingSign@CUSTOM:EbonyHangingSign"
+    ],
+    "BLOCKS:minecraft:wall_hanging_signs": [
+      "~GreenwoodHangingSign@CUSTOM:GreenwoodHangingSign.wall",
+      "~EbonyHangingSign@CUSTOM:EbonyHangingSign.wall"
+    ],
+    "BLOCKS:minecraft:saplings": [
+      "~EbonySapling@CUSTOM:EbonySapling",
+      "~GreenWoodSapling@CUSTOM:GreenWoodSapling"
+    ],
+    "POINTS_OF_INTEREST:minecraft:acquirable_job_site": [
+      "~RandomProfession@CUSTOM:RandomProfession"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~MusicDisc@CUSTOM:MusicDisc"
+    ],
+    "PAINTING_VARIANTS:minecraft:placeable": [
+      "~HolyGDReferense@CUSTOM:HolyGDReferense"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:RandomModTab": [
+      "Baldi",
+      "BaldiCat",
+      "BaldiBlock",
+      "BaldiDimension",
+      "BaldisRuler",
+      "RandomTable",
+      "EmeraldPickaxe",
+      "EmeraldShovel",
+      "EmeraldAxe",
+      "EmeraldSword",
+      "EmeraldHoe",
+      "EmeraldArmor",
+      "NetherGermaniumOre",
+      "RawGermanium",
+      "GermaniumIngot",
+      "RawGermaniumBlock",
+      "GermaniumIngotBlock"
+    ],
+    "COMBAT": [
+      "BaldisRuler",
+      "EmeraldArmor",
+      "EmeraldSword",
+      "EmeraldAxe"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item_group.random_mod.random_mod_tab": "Random Mod Tab",
+      "entity.random_mod.baldi": "Baldi",
+      "item.random_mod.baldi_spawn_egg": "Baldi Spawn Egg",
+      "block.random_mod.baldi_block": "Baldi Block",
+      "biome.random_mod.baldi_biome": "Baldi Biome",
+      "item.random_mod.baldi_dimension": "Baldi Dimension Portal Igniter",
+      "item.random_mod.baldis_ruler": "Baldi\u0027s Ruler",
+      "entity.random_mod.baldi_cat": "Baldi Cat",
+      "item.random_mod.baldi_cat_spawn_egg": "Baldi Cat Spawn Egg",
+      "item.random_mod.emerald_pickaxe": "Emerald Pickaxe",
+      "item.random_mod.emerald_shovel": "Emerald Shovel",
+      "item.random_mod.emerald_axe": "Emerald Axe",
+      "item.random_mod.emerald_sword": "Emerald Sword",
+      "item.random_mod.emerald_hoe": "Emerald Hoe",
+      "item.random_mod.emerald_armor_boots": "Emerald Boots",
+      "item.random_mod.emerald_armor_chestplate": "Emerald Chestplate",
+      "item.random_mod.emerald_armor_helmet": "Emerald Helmet",
+      "item.random_mod.emerald_armor_leggings": "Emerald Leggings",
+      "block.random_mod.nether_germanium_ore": "Nether Germanium Ore",
+      "item.random_mod.raw_germanium": "Raw Germanium",
+      "item.random_mod.germanium_ingot": "Germanium Ingot",
+      "block.random_mod.raw_germanium_block": "Raw Germanium Block",
+      "block.random_mod.germanium_ingot_block": "Germanium Ingot Block",
+      "advancements.germanuim_ingot.descr": "Obtain a Germanium ingot",
+      "advancements.germanuim_ingot.title": "A Heated Technical Revolution",
+      "advancements.emerald_armor_advencement.title": "Emerald Peak",
+      "advancements.emerald_armor_advencement.descr": "Craft a set of armor out of emeralds",
+      "block.random_mod.ebony_log": "Ebony Log",
+      "block.random_mod.ebony_wood": "Ebony Wood",
+      "block.random_mod.stripped_ebony_log": "Stripped Ebony Log",
+      "block.random_mod.stripped_ebony_wood": "Stripped Ebony Wood",
+      "block.random_mod.ebony_planks": "Ebony Planks",
+      "block.random_mod.ebony_leaves": "Ebony Leaves",
+      "block.random_mod.ebony_stairs": "Ebony Stairs",
+      "block.random_mod.ebony_slab": "Ebony Slab",
+      "block.random_mod.ebony_fence": "Ebony Fence",
+      "block.random_mod.ebony_fence_gate": "Ebony Fence Gate",
+      "block.random_mod.ebony_door": "Ebony Door",
+      "block.random_mod.ebony_trapdoor": "Ebony Trapdoor",
+      "block.random_mod.ebony_pressure_plate": "Ebony Pressure Plate",
+      "block.random_mod.ebony_button": "Ebony Button",
+      "block.random_mod.ebony_sign": "Ebony Sign",
+      "block.random_mod.ebony_hanging_sign": "Ebony Hanging Sign",
+      "item.random_mod.ebony_boat": "Ebony Boat",
+      "item.random_mod.ebony_chest_boat": "Ebony Boat with Chest",
+      "biome.random_mod.ebony_biome": "Ebony Biome",
+      "block.random_mod.greenwood_log": "Greenwood Log",
+      "block.random_mod.greenwood_wood": "Greenwood Wood",
+      "block.random_mod.stripped_greenwood_log": "Stripped Greenwood Log",
+      "block.random_mod.stripped_greenwood_wood": "Stripped Greenwood Wood",
+      "block.random_mod.greenwood_planks": "Greenwood Planks",
+      "block.random_mod.greenwood_leaves": "Greenwood Leaves",
+      "block.random_mod.greenwood_stairs": "Greenwood Stairs",
+      "block.random_mod.greenwood_slab": "Greenwood Slab",
+      "block.random_mod.greenwood_fence": "Greenwood Fence",
+      "block.random_mod.greenwood_fence_gate": "Greenwood Fence Gate",
+      "block.random_mod.greenwood_door": "Greenwood Door",
+      "block.random_mod.greenwood_trapdoor": "Greenwood Trapdoor",
+      "block.random_mod.greenwood_pressure_plate": "Greenwood Pressure Plate",
+      "block.random_mod.greenwood_button": "Greenwood Button",
+      "block.random_mod.greenwood_sign": "Greenwood Sign",
+      "block.random_mod.greenwood_hanging_sign": "Greenwood Hanging Sign",
+      "item.random_mod.greenwood_boat": "Greenwood Boat",
+      "item.random_mod.greenwood_chest_boat": "Greenwood Boat with Chest",
+      "block.random_mod.green_wood_sapling": "Greenwood Sapling",
+      "block.random_mod.ebony_sapling": "Ebony Sapling",
+      "block.random_mod.random_table": "Random Table",
+      "entity.minecraft.villager.random_mod.random_profession": "Random Profession",
+      "subtitles.music_disc.creo-flow": "Creo - Flow",
+      "item.random_mod.music_disc.desc": "Creo — Flow, Link: https://www.newgrounds.com/audio/listen/1132447",
+      "item.random_mod.music_disc": "Music Disc",
+      "advancements.music_disc_1advancement.descr": "lol",
+      "advancements.music_disc_1advancement.title": "HOLY GD REFERENSE",
+      "painting.random_mod.holy_gd_referense.title": "Holy GD Referense",
+      "painting.random_mod.holy_gd_referense.author": "idk"
+    },
+    "ru_ru": {
+      "item_group.random_mod.random_mod_tab": "Рандомный мод",
+      "entity.random_mod.baldi": "Балди",
+      "item.random_mod.baldi_spawn_egg": "Яйцо призыва Балди",
+      "block.random_mod.baldi_block": "Блок-балди",
+      "biome.random_mod.baldi_biome": "Биом балди",
+      "item.random_mod.baldi_dimension": "Зажигалка для измерения балди",
+      "item.random_mod.baldis_ruler": "Линейка балди",
+      "entity.random_mod.baldi_cat": "Балди-кот",
+      "item.random_mod.baldi_cat_spawn_egg": "Яйцо призива балди-кота",
+      "item.random_mod.emerald_pickaxe": "Изумрудная кирка",
+      "item.random_mod.emerald_shovel": "Изумрудная лопата",
+      "item.random_mod.emerald_axe": "Изумрудный топор",
+      "item.random_mod.emerald_sword": "Изумрудный меч",
+      "item.random_mod.emerald_hoe": "Изумрудная мотыга",
+      "item.random_mod.emerald_armor_boots": "Изумрудные ботинки",
+      "item.random_mod.emerald_armor_chestplate": "Изумрудный нагрудник",
+      "item.random_mod.emerald_armor_helmet": "Изумрудный шлем",
+      "item.random_mod.emerald_armor_leggings": "Изумрудные поножи",
+      "block.random_mod.nether_germanium_ore": "Незерская руда германия",
+      "item.random_mod.raw_germanium": "Рудный германий",
+      "item.random_mod.germanium_ingot": "Слиток германия",
+      "block.random_mod.raw_germanium_block": "Блок рудного германия",
+      "block.random_mod.germanium_ingot_block": "Блок слитков германия",
+      "advancements.germanuim_ingot.descr": "Получите слиток германия",
+      "advancements.germanuim_ingot.title": "Жаркая техническая революция",
+      "advancements.emerald_armor_advencement.title": "Осыпь меня изумрудами",
+      "advancements.emerald_armor_advencement.descr": "Скрафтите сет брони из изумрудов",
+      "block.random_mod.ebony_log": "Эбеновое бревно",
+      "block.random_mod.ebony_wood": "Эбеновая древесина",
+      "block.random_mod.stripped_ebony_log": "Обтесанное эбеновое бревно",
+      "block.random_mod.stripped_ebony_wood": "Обтесанная эбеновая древесина",
+      "block.random_mod.ebony_planks": "Эбоновые доски",
+      "block.random_mod.ebony_leaves": "Эбоновые листья",
+      "block.random_mod.ebony_stairs": "Эбоновые ступеньки",
+      "block.random_mod.ebony_slab": "Эбоновая плита",
+      "block.random_mod.ebony_fence": "Эбоновый забор",
+      "block.random_mod.ebony_fence_gate": "Эбоновая калитка",
+      "block.random_mod.ebony_door": "Эбоновая дверь",
+      "block.random_mod.ebony_trapdoor": "Эбоновый люк",
+      "block.random_mod.ebony_pressure_plate": "Эбоновая нажимная плита",
+      "block.random_mod.ebony_button": "Эбоновая кнопка",
+      "block.random_mod.ebony_sign": "Эбоновая табличка",
+      "block.random_mod.ebony_hanging_sign": "Эбоновая подвесная табличка",
+      "item.random_mod.ebony_boat": "Эбоновая лодка",
+      "item.random_mod.ebony_chest_boat": "Эбоновая лодка с сундуком",
+      "biome.random_mod.ebony_biome": "Эбеновый биом",
+      "block.random_mod.greenwood_log": "Бревно зелёного дерева",
+      "block.random_mod.greenwood_wood": "Древесина зелёного дерева",
+      "block.random_mod.stripped_greenwood_log": "Обтесанное бревно зелёного дерева",
+      "block.random_mod.stripped_greenwood_wood": "Обтесанная древесина зелёного дерева",
+      "block.random_mod.greenwood_planks": "Доски из зелёного дерева",
+      "block.random_mod.greenwood_leaves": "Листья зелёного дерева",
+      "block.random_mod.greenwood_stairs": "Ступеньки из зелёного дерева",
+      "block.random_mod.greenwood_slab": "Плита из зелёного дерева",
+      "block.random_mod.greenwood_fence": "Забор из зелёного дерева",
+      "block.random_mod.greenwood_fence_gate": "Калитка из зелёного дерева",
+      "block.random_mod.greenwood_door": "Дверь из зелёного дерева",
+      "block.random_mod.greenwood_trapdoor": "Люк из зелёного дерева",
+      "block.random_mod.greenwood_pressure_plate": "Нажимная плита из зелёного дерева",
+      "block.random_mod.greenwood_button": "Кнопка из из зелёного дерева",
+      "block.random_mod.greenwood_sign": "Табличка из зелёного дерева",
+      "block.random_mod.greenwood_hanging_sign": "Подвесная табличка из зелёного дерева",
+      "item.random_mod.greenwood_boat": "Лодка из зелёного дерева",
+      "item.random_mod.greenwood_chest_boat": "Лодка с сундуком из зелёного дерева",
+      "block.random_mod.green_wood_sapling": "Саженец зелёного дерева",
+      "block.random_mod.ebony_sapling": "Саженец эбонового дерева",
+      "block.random_mod.random_table": "Рандомный стол",
+      "entity.minecraft.villager.random_mod.random_profession": "Рандомная профессия",
+      "subtitles.music_disc.creo-flow": "Creo - Flow",
+      "item.random_mod.music_disc.desc": "Creo — Flow, Ссылка: https://www.newgrounds.com/audio/listen/1132447",
+      "item.random_mod.music_disc": "Music Disc",
+      "advancements.music_disc_1advancement.descr": "лол",
+      "advancements.music_disc_1advancement.title": "HOLY GD REFERENSE",
+      "painting.random_mod.holy_gd_referense.title": "Holy GD Referense",
+      "painting.random_mod.holy_gd_referense.author": "хз"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/com/sixoeight/randommod/init/RandomModModBiomes.java",
+      "src/main/java/com/sixoeight/randommod/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/com/sixoeight/randommod/init/RandomModModWoodTypes.java",
+      "src/main/resources/data/neoforge/data_maps/item/compostables.json",
+      "src/main/java/com/sixoeight/randommod/init/RandomModModBoatTypes.java",
+      "src/main/java/com/sixoeight/randommod/init/RandomModModVillagerProfessions.java",
+      "src/main/java/com/sixoeight/randommod/init/RandomModModTrades.java",
+      "src/main/java/com/sixoeight/randommod/init/RandomModModBlocks.java",
+      "src/main/java/com/sixoeight/randommod/init/RandomModModItems.java",
+      "src/main/java/com/sixoeight/randommod/init/RandomModModEntities.java",
+      "src/main/java/com/sixoeight/randommod/init/RandomModModEntityRenderers.java",
+      "src/main/resources/assets/random_mod/sounds.json",
+      "src/main/java/com/sixoeight/randommod/RandomModMod.java",
+      "src/main/java/com/sixoeight/randommod/init/RandomModModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/sixoeight/randommod/init/RandomModModSounds.java",
+      "src/main/resources/META-INF/enumextensions.json",
+      "src/main/java/com/sixoeight/randommod/init/RandomModModDispenseBehaviors.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/random_mod.mixins.json"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "random_mod",
+    "modName": "Random Mod",
+    "version": "1.0.0-alpha",
+    "description": "Just random mod!",
+    "author": "hyperrush228",
+    "websiteURL": "https://github.com/listikhom278/RandomMod",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Tasti",
+    "modElementsPackage": "com.sixoeight.randommod"
+  },
+  "mcreatorVersion": 202600230420
+}
