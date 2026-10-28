@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "random_mod:electrum_ingot_block"
+    }
+  ],
+  "result": {
+    "id": "random_mod:electrum_ingot",
+    "count": 9
+  }
+}

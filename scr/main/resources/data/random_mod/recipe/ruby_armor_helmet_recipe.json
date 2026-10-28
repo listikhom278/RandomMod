@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "random_mod:ruby"
+    }
+  },
+  "result": {
+    "id": "random_mod:ruby_armor_helmet",
+    "count": 1
+  }
+}
