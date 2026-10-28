@@ -1,0 +1,40 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "ruby_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Ruby Axe",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:RandomModTab",
+      "COMBAT"
+    ],
+    "efficiency": 8.0,
+    "attackSpeed": 2.0,
+    "enchantability": 24,
+    "damageVsEntity": 15.0,
+    "usageCount": 525,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:Ruby"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Items.GOLD_INGOT",
+      "Items.GOLD_INGOT",
+      "Items.GOLD_INGOT",
+      "Items.GOLD_INGOT",
+      "Items.REDSTONE",
+      "Items.REDSTONE",
+      "Items.REDSTONE",
+      "Items.REDSTONE",
+      "CUSTOM:GermaniumIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:ElectrumIngot",
+    "name": "electrum_ingot_recipe",
+    "namespace": "mod"
+  }
+}

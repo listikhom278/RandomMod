@@ -12,7 +12,7 @@
         "offer": "CUSTOM:EbonySapling",
         "countOffer": 1,
         "level": 1,
-        "maxTrades": 10,
+        "maxTrades": 11,
         "xp": 5,
         "priceMultiplier": 0.05
       },
@@ -36,7 +36,7 @@
         "offer": "Items.EMERALD",
         "countOffer": 1,
         "level": 1,
-        "maxTrades": 10,
+        "maxTrades": 12,
         "xp": 5,
         "priceMultiplier": 0.05
       },
@@ -48,7 +48,67 @@
         "offer": "CUSTOM:GermaniumIngot",
         "countOffer": 5,
         "level": 1,
-        "maxTrades": 10,
+        "maxTrades": 12,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      },
+      {
+        "price1": "Items.EMERALD",
+        "countPrice1": 4,
+        "price2": "",
+        "countPrice2": 1,
+        "offer": "CUSTOM:Ruby",
+        "countOffer": 1,
+        "level": 2,
+        "maxTrades": 14,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      },
+      {
+        "price1": "CUSTOM:ElectrumIngot",
+        "countPrice1": 3,
+        "price2": "",
+        "countPrice2": 1,
+        "offer": "CUSTOM:RubyArmor.body",
+        "countOffer": 1,
+        "level": 2,
+        "maxTrades": 4,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      },
+      {
+        "price1": "CUSTOM:NetherGermaniumOre",
+        "countPrice1": 3,
+        "price2": "",
+        "countPrice2": 1,
+        "offer": "CUSTOM:Ruby",
+        "countOffer": 1,
+        "level": 2,
+        "maxTrades": 8,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      },
+      {
+        "price1": "CUSTOM:BaldisRuler",
+        "countPrice1": 1,
+        "price2": "",
+        "countPrice2": 1,
+        "offer": "CUSTOM:Ruby",
+        "countOffer": 3,
+        "level": 3,
+        "maxTrades": 4,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      },
+      {
+        "price1": "CUSTOM:Ruby",
+        "countPrice1": 3,
+        "price2": "",
+        "countPrice2": 1,
+        "offer": "Blocks.DIAMOND_BLOCK",
+        "countOffer": 1,
+        "level": 3,
+        "maxTrades": 2,
         "xp": 5,
         "priceMultiplier": 0.05
       }

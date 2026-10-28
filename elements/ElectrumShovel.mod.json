@@ -1,0 +1,39 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "electrum_shovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Electrum Shovel",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:RandomModTab"
+    ],
+    "efficiency": 8.0,
+    "attackSpeed": 2.0,
+    "enchantability": 30,
+    "damageVsEntity": 7.0,
+    "usageCount": 441,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:ElectrumIngot"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

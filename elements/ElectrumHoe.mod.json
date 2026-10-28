@@ -1,0 +1,39 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "electrum_hoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Electrum Hoe",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:RandomModTab"
+    ],
+    "efficiency": 8.0,
+    "attackSpeed": 5.0,
+    "enchantability": 30,
+    "damageVsEntity": 2.0,
+    "usageCount": 441,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:ElectrumIngot"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
