@@ -1763,6 +1763,578 @@
           "src/main/resources/data/random_mod/recipe/random_table_recipe.json"
         ]
       }
+    },
+    {
+      "name": "ElectrumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/item/ElectrumIngotItem.java",
+          "src/main/resources/assets/random_mod/models/item/electrum_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/electrum_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/electrum_pickaxe.json",
+          "src/main/java/com/sixoeight/randommod/item/ElectrumPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/electrum_axe.json",
+          "src/main/java/com/sixoeight/randommod/item/ElectrumAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/electrum_sword.json",
+          "src/main/java/com/sixoeight/randommod/item/ElectrumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/electrum_shovel.json",
+          "src/main/java/com/sixoeight/randommod/item/ElectrumShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/electrum_hoe.json",
+          "src/main/java/com/sixoeight/randommod/item/ElectrumHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/electrum_pickaxe_recipe.json",
+          "src/main/resources/data/random_mod/recipe/electrum_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/electrum_axe_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/electrum_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/electrum_sword_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/electrum_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/electrum_shovel_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/electrum_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/electrum_hoe_recipe.json",
+          "src/main/resources/data/random_mod/recipe/electrum_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/electrum_armor_boots.json",
+          "src/main/java/com/sixoeight/randommod/item/ElectrumArmorItem.java",
+          "src/main/resources/assets/random_mod/models/item/electrum_armor_helmet.json",
+          "src/main/resources/assets/random_mod/models/item/electrum_armor_chestplate.json",
+          "src/main/resources/assets/random_mod/models/item/electrum_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/electrum_armor_helmet_recipe.json",
+          "src/main/resources/data/random_mod/recipe/electrum_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/electrum_armor_chestplate_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/electrum_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/electrum_armor_leggings_recipe.json",
+          "src/main/resources/data/random_mod/recipe/electrum_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/electrum_armor_boots_recipe.json",
+          "src/main/resources/data/random_mod/recipe/electrum_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumIngotAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ingot_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/electrum_ingot_adv.json"
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/item/RubyItem.java",
+          "src/main/resources/assets/random_mod/models/item/ruby.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/loot_table/blocks/ruby_ore.json",
+          "src/main/resources/assets/random_mod/models/block/ruby_ore.json",
+          "src/main/resources/assets/random_mod/models/item/ruby_ore.json",
+          "src/main/resources/assets/random_mod/blockstates/ruby_ore.json",
+          "src/main/resources/data/random_mod/neoforge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/data/random_mod/worldgen/configured_feature/ruby_ore.json",
+          "src/main/java/com/sixoeight/randommod/block/RubyOreBlock.java",
+          "src/main/resources/data/random_mod/worldgen/placed_feature/ruby_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/block/ruby_block.json",
+          "src/main/java/com/sixoeight/randommod/block/RubyBlockBlock.java",
+          "src/main/resources/data/random_mod/loot_table/blocks/ruby_block.json",
+          "src/main/resources/assets/random_mod/models/item/ruby_block.json",
+          "src/main/resources/assets/random_mod/blockstates/ruby_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_ore_block_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ruby_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_block_ore_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ruby_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ruby_ore_smelting.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/ruby_pickaxe.json",
+          "src/main/java/com/sixoeight/randommod/item/RubyPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/item/RubyAxeItem.java",
+          "src/main/resources/assets/random_mod/models/item/ruby_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/item/RubySwordItem.java",
+          "src/main/resources/assets/random_mod/models/item/ruby_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/item/RubyShovelItem.java",
+          "src/main/resources/assets/random_mod/models/item/ruby_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/sixoeight/randommod/item/RubyHoeItem.java",
+          "src/main/resources/assets/random_mod/models/item/ruby_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ruby_pickaxe_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_axe_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ruby_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubySwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_sword_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ruby_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_shovel_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ruby_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_hoe_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ruby_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_mod/models/item/ruby_armor_helmet.json",
+          "src/main/resources/assets/random_mod/models/item/ruby_armor_chestplate.json",
+          "src/main/resources/assets/random_mod/models/item/ruby_armor_boots.json",
+          "src/main/resources/assets/random_mod/models/item/ruby_armor_leggings.json",
+          "src/main/java/com/sixoeight/randommod/item/RubyArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ruby_armor_helmet_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_armor_chestplate_recipe.json",
+          "src/main/resources/data/random_mod/recipe/ruby_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ruby_armor_leggings_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/ruby_armor_boots_recipe.json",
+          "src/main/resources/data/random_mod/advancement/recipes/ruby_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/advancement/ruby_adv.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumIngotBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ingot_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/loot_table/blocks/electrum_ingot_block.json",
+          "src/main/resources/assets/random_mod/models/block/electrum_ingot_block.json",
+          "src/main/resources/assets/random_mod/blockstates/electrum_ingot_block.json",
+          "src/main/resources/assets/random_mod/models/item/electrum_ingot_block.json",
+          "src/main/java/com/sixoeight/randommod/block/ElectrumIngotBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumIngotBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ingot_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/electrum_ingot_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectrumBlockIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_block_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_mod/recipe/electrum_block_ingot_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1831,6 +2403,9 @@
       "CUSTOM:StrippedGreenwoodWood"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~ElectrumIngotBlock@CUSTOM:ElectrumIngotBlock",
+      "~RubyOre@CUSTOM:RubyOre",
+      "~RubyBlock@CUSTOM:RubyBlock",
       "~GermaniumIngotBlock@CUSTOM:GermaniumIngotBlock",
       "~RawGermaniumBlock@CUSTOM:RawGermaniumBlock",
       "~NetherGermaniumOre@CUSTOM:NetherGermaniumOre",
@@ -1843,34 +2418,53 @@
       "~BaldiDimension@CUSTOM:BaldiBlock"
     ],
     "ITEMS:minecraft:swords": [
+      "~RubySword@CUSTOM:RubySword",
+      "~ElectrumSword@CUSTOM:ElectrumSword",
       "~EmeraldSword@CUSTOM:EmeraldSword",
       "~BaldisRuler@CUSTOM:BaldisRuler"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~RubyPickaxe@CUSTOM:RubyPickaxe",
+      "~ElectrumPickaxe@CUSTOM:ElectrumPickaxe",
       "~EmeraldPickaxe@CUSTOM:EmeraldPickaxe"
     ],
     "ITEMS:minecraft:shovels": [
+      "~RubyShovel@CUSTOM:RubyShovel",
+      "~ElectrumShovel@CUSTOM:ElectrumShovel",
       "~EmeraldShovel@CUSTOM:EmeraldShovel"
     ],
     "ITEMS:minecraft:axes": [
+      "~RubyAxe@CUSTOM:RubyAxe",
+      "~ElectrumAxe@CUSTOM:ElectrumAxe",
       "~EmeraldAxe@CUSTOM:EmeraldAxe"
     ],
     "ITEMS:minecraft:hoes": [
+      "~RubyHoe@CUSTOM:RubyHoe",
+      "~ElectrumHoe@CUSTOM:ElectrumHoe",
       "~EmeraldHoe@CUSTOM:EmeraldHoe"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~RubyArmor@CUSTOM:RubyArmor.helmet",
+      "~ElectrumArmor@CUSTOM:ElectrumArmor.helmet",
       "~EmeraldArmor@CUSTOM:EmeraldArmor.helmet"
     ],
     "ITEMS:minecraft:chest_armor": [
+      "~RubyArmor@CUSTOM:RubyArmor.body",
+      "~ElectrumArmor@CUSTOM:ElectrumArmor.body",
       "~EmeraldArmor@CUSTOM:EmeraldArmor.body"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~RubyArmor@CUSTOM:RubyArmor.legs",
+      "~ElectrumArmor@CUSTOM:ElectrumArmor.legs",
       "~EmeraldArmor@CUSTOM:EmeraldArmor.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~RubyArmor@CUSTOM:RubyArmor.boots",
+      "~ElectrumArmor@CUSTOM:ElectrumArmor.boots",
       "~EmeraldArmor@CUSTOM:EmeraldArmor.boots"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~ElectrumIngotBlock@CUSTOM:ElectrumIngotBlock",
       "~GermaniumIngotBlock@CUSTOM:GermaniumIngotBlock",
       "~RawGermaniumBlock@CUSTOM:RawGermaniumBlock",
       "~NetherGermaniumOre@CUSTOM:NetherGermaniumOre"
@@ -1976,6 +2570,10 @@
     ],
     "PAINTING_VARIANTS:minecraft:placeable": [
       "~HolyGDReferense@CUSTOM:HolyGDReferense"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~RubyOre@CUSTOM:RubyOre",
+      "~RubyBlock@CUSTOM:RubyBlock"
     ]
   },
   "tab_element_order": {
@@ -1993,16 +2591,60 @@
       "EmeraldHoe",
       "EmeraldArmor",
       "NetherGermaniumOre",
+      "GermaniumIngotBlock",
+      "RawGermaniumBlock",
       "RawGermanium",
       "GermaniumIngot",
-      "RawGermaniumBlock",
-      "GermaniumIngotBlock"
+      "ElectrumIngotBlock",
+      "ElectrumIngot",
+      "ElectrumPickaxe",
+      "ElectrumAxe",
+      "ElectrumSword",
+      "ElectrumShovel",
+      "ElectrumHoe",
+      "ElectrumArmor",
+      "RubyOre",
+      "RubyBlock",
+      "Ruby",
+      "RubyPickaxe",
+      "RubyAxe",
+      "RubySword",
+      "RubyShovel",
+      "RubyHoe",
+      "RubyArmor"
     ],
     "COMBAT": [
       "BaldisRuler",
-      "EmeraldArmor",
       "EmeraldSword",
-      "EmeraldAxe"
+      "EmeraldAxe",
+      "EmeraldArmor",
+      "ElectrumSword",
+      "ElectrumAxe",
+      "ElectrumArmor",
+      "RubySword",
+      "RubyAxe",
+      "RubyArmor"
+    ],
+    "TOOLS": [
+      "BaldiDimension",
+      "BaldisRuler",
+      "EmeraldPickaxe",
+      "EmeraldShovel",
+      "EmeraldAxe",
+      "EmeraldHoe",
+      "ElectrumPickaxe",
+      "ElectrumAxe",
+      "ElectrumShovel",
+      "ElectrumHoe",
+      "RubyPickaxe",
+      "RubyAxe",
+      "RubyShovel",
+      "RubyHoe",
+      "EbonyBoat",
+      "EbonyChestBoat",
+      "GreenwoodBoat",
+      "GreenwoodChestBoat",
+      "MusicDisc"
     ]
   },
   "language_map": {
@@ -2081,7 +2723,34 @@
       "advancements.music_disc_1advancement.descr": "lol",
       "advancements.music_disc_1advancement.title": "HOLY GD REFERENSE",
       "painting.random_mod.holy_gd_referense.title": "Holy GD Referense",
-      "painting.random_mod.holy_gd_referense.author": "idk"
+      "painting.random_mod.holy_gd_referense.author": "idk",
+      "item.random_mod.electrum_ingot": "Electrum Ingot",
+      "item.random_mod.electrum_pickaxe": "Electrum Pickaxe",
+      "item.random_mod.electrum_axe": "Electrum Axe",
+      "item.random_mod.electrum_sword": "Electrum Sword",
+      "item.random_mod.electrum_shovel": "Electrum Shovel",
+      "item.random_mod.electrum_hoe": "Electrum Hoe",
+      "item.random_mod.electrum_armor_boots": "Electrum Boots",
+      "item.random_mod.electrum_armor_chestplate": "Electrum Chestplate",
+      "item.random_mod.electrum_armor_helmet": "Electrum Helmet",
+      "item.random_mod.electrum_armor_leggings": "Electrum Leggings",
+      "advancements.electrum_ingot_adv.title": "Finally, a use for gold!",
+      "advancements.electrum_ingot_adv.descr": "Obtain an electrum ingot",
+      "item.random_mod.ruby": "Ruby",
+      "block.random_mod.ruby_ore": "Ruby Ore",
+      "block.random_mod.ruby_block": "Block of Ruby",
+      "item.random_mod.ruby_pickaxe": "Ruby Pickaxe",
+      "item.random_mod.ruby_axe": "Ruby Axe",
+      "item.random_mod.ruby_sword": "Ruby Sword",
+      "item.random_mod.ruby_shovel": "Ruby Shovel",
+      "item.random_mod.ruby_hoe": "Ruby Hoe",
+      "item.random_mod.ruby_armor_helmet": "Ruby Helmet",
+      "item.random_mod.ruby_armor_leggings": "Ruby Leggings",
+      "item.random_mod.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.random_mod.ruby_armor_boots": "Ruby Boots",
+      "advancements.ruby_adv.descr": "Obtain an interesting red gem",
+      "advancements.ruby_adv.title": "I always come back...",
+      "block.random_mod.electrum_ingot_block": "Electrum Block"
     },
     "ru_ru": {
       "item_group.random_mod.random_mod_tab": "Рандомный мод",
@@ -2158,7 +2827,34 @@
       "advancements.music_disc_1advancement.descr": "лол",
       "advancements.music_disc_1advancement.title": "HOLY GD REFERENSE",
       "painting.random_mod.holy_gd_referense.title": "Holy GD Referense",
-      "painting.random_mod.holy_gd_referense.author": "хз"
+      "painting.random_mod.holy_gd_referense.author": "хз",
+      "item.random_mod.electrum_ingot": "Электрумовый слиток",
+      "item.random_mod.electrum_pickaxe": "Электрумовая кирка",
+      "item.random_mod.electrum_axe": "Электрумовый топор",
+      "item.random_mod.electrum_sword": "Электрумовый меч",
+      "item.random_mod.electrum_shovel": "Электрумовая лопата",
+      "item.random_mod.electrum_hoe": "Электрумовая мотыга",
+      "item.random_mod.electrum_armor_boots": "Электрумовые ботинки",
+      "item.random_mod.electrum_armor_chestplate": "Электрумовый нагрудник",
+      "item.random_mod.electrum_armor_helmet": "Электрумовый шлем",
+      "item.random_mod.electrum_armor_leggings": "Электрумовые поножи",
+      "advancements.electrum_ingot_adv.title": "Электрумовые дела",
+      "advancements.electrum_ingot_adv.descr": "Получите электрумовый слиток",
+      "item.random_mod.ruby": "Рубин",
+      "block.random_mod.ruby_ore": "Рубиновая руда",
+      "block.random_mod.ruby_block": "Рубиновый блок",
+      "item.random_mod.ruby_pickaxe": "Рубиновая кирка",
+      "item.random_mod.ruby_axe": "Рубиновый топор",
+      "item.random_mod.ruby_sword": "Рубиновый меч",
+      "item.random_mod.ruby_shovel": "Рубиновая лопата",
+      "item.random_mod.ruby_hoe": "Рубиновая мотыга",
+      "item.random_mod.ruby_armor_helmet": "Рубиновый шлем",
+      "item.random_mod.ruby_armor_leggings": "Рубиновые поножи",
+      "item.random_mod.ruby_armor_chestplate": "Рубиновый нагрудник",
+      "item.random_mod.ruby_armor_boots": "Рубиновые ботинки",
+      "advancements.ruby_adv.descr": "Получите интересный красный самоцвет",
+      "advancements.ruby_adv.title": "Я всегда возвращаюсь...",
+      "block.random_mod.electrum_ingot_block": "Электрумовый блок"
     }
   },
   "metadata": {
@@ -2193,12 +2889,13 @@
   "workspaceSettings": {
     "modid": "random_mod",
     "modName": "Random Mod",
-    "version": "1.0.0-alpha",
+    "version": "1.0.0",
     "description": "Just random mod!",
     "author": "hyperrush228",
     "websiteURL": "https://github.com/listikhom278/RandomMod",
     "license": "Not specified",
     "serverSideOnly": false,
+    "modPicture": "raw_iron",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
