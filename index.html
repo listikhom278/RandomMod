@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица Майнкренделеева & RandomModkipedia</title>
+    <style>
+        :root {
+            --bg-color: #1a1a1a;
+            --card-bg: #2d2d2d;
+            --text-color: #f0f0f0;
+            --accent-redstone: #ff4d4d;
+            --accent-reagent: #ffaa00;
+            --accent-metal: #4da6ff;
+            --accent-crystal: #b84daf;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #55ff55;
+            text-shadow: 2px 2px #005500;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #aaa;
+        }
+
+        .filters {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            background: var(--card-bg);
+            color: #fff;
+            border: 2px solid #555;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            border-color: #aaa;
+        }
+
+        /* Таблица элементов */
+        .table-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 12px;
+            max-width: 1200px;
+            margin: 0 auto 50px auto;
+        }
+
+        .element-card {
+            background: var(--card-bg);
+            border: 2px solid #444;
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s, border-color 0.2s;
+            position: relative;
+        }
+
+        .element-card:hover {
+            transform: translateY(-4px);
+            border-color: #fff;
+        }
+
+        .element-card.redstone { border-top: 4px solid var(--accent-redstone); }
+        .element-card.reagent { border-top: 4px solid var(--accent-reagent); }
+        .element-card.metal { border-top: 4px solid var(--accent-metal); }
+        .element-card.crystal { border-top: 4px solid var(--accent-crystal); }
+
+        .symbol {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        .name {
+            font-size: 13px;
+            color: #ccc;
+        }
+
+        .badge {
+            font-size: 10px;
+            padding: 2px 5px;
+            border-radius: 3px;
+            background: #444;
+            position: absolute;
+            top: 4px;
+            right: 4px;
+        }
+
+        .mod-badge { background: #0088cc; }
+        .vanilla-badge { background: #555; }
+
+        /* RandomModkipedia */
+        .wiki-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #444;
+        }
+
+        .wiki-section h2 {
+            border-bottom: 2px solid #555;
+            padding-bottom: 8px;
+            color: #ffaa00;
+        }
+
+        /* Модальное окно */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 8px;
+            max-width: 400px;
+            width: 90%;
+            border: 2px solid #666;
+            position: relative;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px; right: 15px;
+            font-size: 20px;
+            cursor: pointer;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Таблица Майнкренделеева</h1>
+        <div class="subtitle">Официальная база ресурсов для мода & RandomModkipedia</div>
+    </header>
+
+    <div class="filters">
+        <button class="btn" onclick="filterCategory('all')">Все элементы</button>
+        <button class="btn" onclick="filterCategory('redstone')">Редстоун / Энергия</button>
+        <button class="btn" onclick="filterCategory('reagent')">Реагенты</button>
+        <button class="btn" onclick="filterCategory('metal')">Металлы / Сплавы</button>
+        <button class="btn" onclick="filterCategory('crystal')">Кристаллы</button>
+    </div>
+
+    <div class="table-grid" id="grid">
+        <!-- Редстоун и Энергия -->
+        <div class="element-card redstone" data-cat="redstone" onclick="showDetails('Редстоун (Rs)', 'Ванилла', 'Базовый проводник сигнала редстоуна.')">
+            <span class="badge vanilla-badge">Vanilla</span>
+            <div class="symbol">Rs</div>
+            <div class="name">Редстоун</div>
+        </div>
+
+        <div class="element-card redstone" data-cat="redstone" onclick="showDetails('Блюстоун (Bs)', 'Мод', 'Усиленный альтернативный проводник сигнала.')">
+            <span class="badge mod-badge">Mod</span>
+            <div class="symbol">Bs</div>
+            <div class="name">Блюстоун</div>
+        </div>
+
+        <div class="element-card redstone" data-cat="redstone" onclick="showDetails('Германиум (Ge)', 'Мод', 'Полупроводник. Используется в крафте продвинутых микросхем.')">
+            <span class="badge mod-badge">Mod</span>
+            <div class="symbol">Ge</div>
+            <div class="name">Германиум</div>
+        </div>
+
+        <div class="element-card redstone" data-cat="redstone" onclick="showDetails('Лазурит (Lp)', 'Ванилла', 'Магический резонат и проводник чар.')">
+            <span class="badge vanilla-badge">Vanilla</span>
+            <div class="symbol">Lp</div>
+            <div class="name">Лазурит</div>
+        </div>
+
+        <!-- Реагенты -->
+        <div class="element-card reagent" data-cat="reagent" onclick="showDetails('Уголь (C)', 'Ванилла', 'Органическое топливо и источник углерода.')">
+            <span class="badge vanilla-badge">Vanilla</span>
+            <div class="symbol">C</div>
+            <div class="name">Уголь</div>
+        </div>
+
+        <div class="element-card reagent" data-cat="reagent" onclick="showDetails('Сера (S)', 'Мод', 'Реагент для создания пороха и мощной взрывчатки.')">
+            <span class="badge mod-badge">Mod</span>
+            <div class="symbol">S</div>
+            <div class="name">Сера</div>
+        </div>
+
+        <div class="element-card reagent" data-cat="reagent" onclick="showDetails('Селитра (Np)', 'Мод', 'Окислитель. Нужна для удобрений и C4-динамита.')">
+            <span class="badge mod-badge">Mod</span>
+            <div class="symbol">Np</div>
+            <div class="name">Селитра</div>
+        </div>
+
+        <!-- Металлы -->
+        <div class="element-card metal" data-cat="metal" onclick="showDetails('Медь (Cu)', 'Ванилла', 'Базовый проводящий металл.')">
+            <span class="badge vanilla-badge">Vanilla</span>
+            <div class="symbol">Cu</div>
+            <div class="name">Медь</div>
+        </div>
+
+        <div class="element-card metal" data-cat="metal" onclick="showDetails('Железо (Fe)', 'Ванилла', 'Основной конструкционный металл.')">
+            <span class="badge vanilla-badge">Vanilla</span>
+            <div class="symbol">Fe</div>
+            <div class="name">Железо</div>
+        </div>
+
+        <div class="element-card metal" data-cat="metal" onclick="showDetails('Золото (Au)', 'Ванилла', 'Мягкий металл с высокой проводимостью.')">
+            <span class="badge vanilla-badge">Vanilla</span>
+            <div class="symbol">Au</div>
+            <div class="name">Золото</div>
+        </div>
+
+        <div class="element-card metal" data-cat="metal" onclick="showDetails('Электрум (El)', 'Мод', 'Сплав золота и меди/серебра с высокой энергоемкостью.')">
+            <span class="badge mod-badge">Mod</span>
+            <div class="symbol">El</div>
+            <div class="name">Электрум</div>
+        </div>
+
+        <div class="element-card metal" data-cat="metal" onclick="showDetails('Розовое золото (Rg)', 'Мод', 'Сплав Золота + Меди. Прочнее золота, сохраняет высокую чаруемость.')">
+            <span class="badge mod-badge">Mod</span>
+            <div class="symbol">Rg</div>
+            <div class="name">Розовое золото</div>
+        </div>
+
+        <div class="element-card metal" data-cat="metal" onclick="showDetails('Железно-аметистовый сплав (FAm)', 'Мод', 'Прочный резонирующий металл со звуковыми свойствами.')">
+            <span class="badge mod-badge">Mod</span>
+            <div class="symbol">FAm</div>
+            <div class="name">Жел.-Аметист</div>
+        </div>
+
+        <!-- Кристаллы -->
+        <div class="element-card crystal" data-cat="crystal" onclick="showDetails('Кварц (Qz)', 'Ванилла', 'Незерский кристалличесткий фокусировщик.')">
+            <span class="badge vanilla-badge">Vanilla</span>
+            <div class="symbol">Qz</div>
+            <div class="name">Кварц</div>
+        </div>
+
+        <div class="element-card crystal" data-cat="crystal" onclick="showDetails('Аметист (Am)', 'Ванилла', 'Звуковой резонирующий кристалл.')">
+            <span class="badge vanilla-badge">Vanilla</span>
+            <div class="symbol">Am</div>
+            <div class="name">Аметист</div>
+        </div>
+
+        <div class="element-card crystal" data-cat="crystal" onclick="showDetails('Изумруд (Em)', 'Ванилла', 'Торговый кристаллический минерал.')">
+            <span class="badge vanilla-badge">Vanilla</span>
+            <div class="symbol">Em</div>
+            <div class="name">Изумруд</div>
+        </div>
+
+        <div class="element-card crystal" data-cat="crystal" onclick="showDetails('Рубин (Rb)', 'Мод', 'Огненный боевой драгоценный камень.')">
+            <span class="badge mod-badge">Mod</span>
+            <div class="symbol">Rb</div>
+            <div class="name">Рубин</div>
+        </div>
+
+        <div class="element-card crystal" data-cat="crystal" onclick="showDetails('Алмаз (Dm)', 'Ванилла', 'Сверхтвердая кристалическая структура.')">
+            <span class="badge vanilla-badge">Vanilla</span>
+            <div class="symbol">Dm</div>
+            <div class="name">Алмаз</div>
+        </div>
+
+        <div class="element-card crystal" data-cat="crystal" onclick="showDetails('Незерит (Nt)', 'Ванилла', 'Тяжелейший огнеупорный сплав из Незера.')">
+            <span class="badge vanilla-badge">Vanilla</span>
+            <div class="symbol">Nt</div>
+            <div class="name">Незерит</div>
+        </div>
+    </div>
+
+    <section class="wiki-section">
+        <h2>RandomModkipedia</h2>
+        <p>Добро пожаловать в вики мода! Здесь собрана вся информация о рецептах, рудах и механизмах.</p>
+        <ul>
+            <li><b>Порох нового поколения:</b> <code>S</code> + <code>Np</code> + <code>C</code></li>
+            <li><b>Розовое золото:</b> Сплавляется из <code>Au</code> и <code>Cu</code> в печи.</li>
+            <li><b>Микросхемы:</b> Требуют полупроводник <code>Ge</code> и проводник <code>Bs</code>.</li>
+        </ul>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h3 id="m-title">Название</h3>
+            <p><b>Происхождение:</b> <span id="m-origin"></span></p>
+            <p id="m-desc">Описание...</p>
+        </div>
+    </div>
+
+    <script>
+        function filterCategory(cat) {
+            const cards = document.querySelectorAll('.element-card');
+            cards.forEach(card => {
+                if (cat === 'all' || card.getAttribute('data-cat') === cat) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        function showDetails(title, origin, desc) {
+            document.getElementById('m-title').innerText = title;
+            document.getElementById('m-origin').innerText = origin;
+            document.getElementById('m-desc').innerText = desc;
+            document.getElementById('modal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
